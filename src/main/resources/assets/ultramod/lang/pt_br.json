@@ -1,0 +1,15 @@
+{
+  "item.ultramod.fluorite": "Fluorita",
+  "item.ultramod.raw_fluorite": "Fluorita Bruta",
+  "item.ultramod.chisel": "Cinzel",
+
+  "block.ultramod.fluorite_block": "Bloco de Fluorita",
+  "block.ultramod.raw_fluorite_block": "Bloco de Fluorita Bruta",
+  "block.ultramod.fluorite_ore": "Minério de Fluorita",
+  "block.ultramod.fluorite_deepslate_ore": "Minério de Fluorita de Ardósia",
+  "block.ultramod.fluorite_nether_ore": "Minério de Fluorita do Nether",
+  "block.ultramod.fluorite_end_ore": "Minério de Fluorita do Fim",
+
+  "creativemodetab.ultramod.fluorite_items": "Itens de Fluorita",
+  "creativemodetab.ultramod.fluorite_blocks": "Blocos de Fluorita"
+}
