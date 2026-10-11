@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "ultramod",
+	"version": "${version}",
+	"name": "Ultra Mod (BETA)",
+	"description": "This is a Minecraft mod, it has new blocks, items and mechanics",
+	"authors": [
+		"Player1"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/ultramod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"player1.ultramod.UltraMod"
+		],
+		"fabric-datagen": [
+			"player1.ultramod.UltraModDataGenerator"
+		]
+	},
+	"mixins": [
+		"ultramod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": ">=26.1.2 <=26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
