@@ -1,0 +1,7 @@
+// 26.2	-999999999-01-01T00:00:00	Ultra Mod (BETA)/Block Loot Tables
+56161c73901f73a9dc37d9e26bb25aedb8739cd7 data/ultramod/loot_table/blocks/fluorite_block.json
+221eaaa2b013ee36adcc8db3621f5bbe10923337 data/ultramod/loot_table/blocks/fluorite_deepslate_ore.json
+8d35141c4b8a4b273bdf141fcce9a56e22f8b9e4 data/ultramod/loot_table/blocks/fluorite_end_ore.json
+514f4926cf486bd26bbaee497f11f775fc5a4a92 data/ultramod/loot_table/blocks/fluorite_nether_ore.json
+6b8ba24969a1228ffe167aa87805ea5d11b203fc data/ultramod/loot_table/blocks/fluorite_ore.json
+cfc69c534370554cf78b082028b0d6cb1080364b data/ultramod/loot_table/blocks/raw_fluorite_block.json

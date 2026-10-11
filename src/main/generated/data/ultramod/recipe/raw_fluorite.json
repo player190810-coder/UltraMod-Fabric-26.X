@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "fluorite",
+  "ingredients": [
+    "ultramod:raw_fluorite_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "ultramod:raw_fluorite"
+  }
+}
