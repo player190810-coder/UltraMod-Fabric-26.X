@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "experience": 0.25,
+  "group": "flourite",
+  "ingredient": "ultramod:fluorite_end_ore",
+  "result": {
+    "id": "ultramod:fluorite"
+  }
+}
