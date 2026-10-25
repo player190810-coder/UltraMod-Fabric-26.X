@@ -1,4 +1,4 @@
-# Ultra Mod
+# `Ultra Mod`
 
 ## Setup
 
@@ -11,6 +11,6 @@ This template is available under the CC0 license. Feel free to learn from it and
 
 
 ## Credits 
-
+--
 Created by `Player1`
-
+--
