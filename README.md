@@ -9,7 +9,7 @@ For setup instructions, please see the [Fabric Documentation page](https://docs.
 This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
 
 # Download Mod
-To generate the JAR file, open the project in IntelliJ IDEA and click "Build Gradle"; the file will be located in the `build/libs` directory.
+To generate the JAR file, open the project in IntelliJ IDEA and click "Build Gradle"; the file will be located in the `build/libs`
 
 # `UltraMod-Fabric-26.X`
 
