@@ -10,3 +10,4 @@ This template is available under the CC0 license. Feel free to learn from it and
 # UltraMod-Fabric-26.X
 
 ## -----Player1----- 
+<span translate="no">Player1</span>
