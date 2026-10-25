@@ -10,6 +10,5 @@ This template is available under the CC0 license. Feel free to learn from it and
 # UltraMod-Fabric-26.X
  
 <notranslate>
------Player1-----
+-----Criado por Player1-----
 </notranslate>
-<span translate="no">Player1</span>
