@@ -10,5 +10,5 @@ This template is available under the CC0 license. Feel free to learn from it and
 # UltraMod-Fabric-26.X
 ## Credits 
 
-<translate>-----Created by</translate> <notranslate> Player1-----</notranslate>
+-----Created by</translate> <notranslate> Player1-----</notranslate>
 
