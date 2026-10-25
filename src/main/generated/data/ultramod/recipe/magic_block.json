@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "fluorite",
+  "key": {
+    "D": "minecraft:diamond_block",
+    "F": "ultramod:fluorite_block",
+    "N": "minecraft:nether_star"
+  },
+  "pattern": [
+    "D F D",
+    "F N F",
+    "D F D"
+  ],
+  "result": {
+    "id": "ultramod:magic_block"
+  }
+}

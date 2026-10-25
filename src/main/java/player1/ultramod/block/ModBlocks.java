@@ -13,6 +13,7 @@ import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import player1.ultramod.UltraMod;
+import player1.ultramod.block.custom.MagicBlock;
 
 import java.util.function.Function;
 
@@ -42,6 +43,10 @@ public class ModBlocks {
     public static final Block FLUORITE_END_ORE = registerBlock("fluorite_end_ore",
             properties -> new DropExperienceBlock(UniformInt.of(3, 6),
                     properties.strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+
+    public static final Block MAGIC_BLOCK = registerBlock("magic_block",
+            properties -> new MagicBlock(properties.strength(2f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+
 
 
     public static ResourceKey<Block> getRK(Block block) {

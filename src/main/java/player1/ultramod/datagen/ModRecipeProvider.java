@@ -10,6 +10,7 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.CookingBookCategory;
 import net.minecraft.world.level.ItemLike;
+import net.minecraft.world.level.block.Blocks;
 import player1.ultramod.UltraMod;
 import player1.ultramod.block.ModBlocks;
 import player1.ultramod.item.ModItems;
@@ -65,6 +66,19 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .define('S', Items.STICK)
                         .unlockedBy(getHasName(ModItems.FLUORITE), has(ModItems.FLUORITE))
                         .unlockedBy(getHasName(Items.STICK), has(Items.STICK))
+                        .group("fluorite")
+                        .save(output);
+
+                shaped(RecipeCategory.MISC, ModBlocks.MAGIC_BLOCK)
+                        .pattern("D F D")
+                        .pattern("F N F")
+                        .pattern("D F D")
+                        .define('F', ModBlocks.FLUORITE_BLOCK)
+                        .define('D', Blocks.DIAMOND_BLOCK)
+                        .define('N', Items.NETHER_STAR)
+                        .unlockedBy(getHasName(ModBlocks.FLUORITE_BLOCK), has(ModBlocks.FLUORITE_BLOCK))
+                        .unlockedBy(getHasName(Blocks.DIAMOND_BLOCK), has(Blocks.DIAMOND_BLOCK))
+                        .unlockedBy(getHasName(Items.NETHER_STAR), has(Items.NETHER_STAR))
                         .group("fluorite")
                         .save(output);
 

@@ -22,7 +22,8 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
                 .add(ModBlocks.getRK(ModBlocks.FLUORITE_ORE))
                 .add(ModBlocks.getRK(ModBlocks.FLUORITE_DEEPSLATE_ORE))
                 .add(ModBlocks.getRK(ModBlocks.FLUORITE_NETHER_ORE))
-                .add(ModBlocks.getRK(ModBlocks.FLUORITE_END_ORE));
+                .add(ModBlocks.getRK(ModBlocks.FLUORITE_END_ORE))
+                .add(ModBlocks.getRK(ModBlocks.MAGIC_BLOCK));
 
         tag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.getRK(ModBlocks.RAW_FLUORITE_BLOCK))
@@ -30,7 +31,8 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
                 .add(ModBlocks.getRK(ModBlocks.FLUORITE_ORE))
                 .add(ModBlocks.getRK(ModBlocks.FLUORITE_DEEPSLATE_ORE))
                 .add(ModBlocks.getRK(ModBlocks.FLUORITE_NETHER_ORE))
-                .add(ModBlocks.getRK(ModBlocks.FLUORITE_END_ORE));
+                .add(ModBlocks.getRK(ModBlocks.FLUORITE_END_ORE))
+                .add(ModBlocks.getRK(ModBlocks.MAGIC_BLOCK));
 
     }
 }
