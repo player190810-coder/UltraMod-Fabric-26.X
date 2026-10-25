@@ -13,3 +13,5 @@ This template is available under the CC0 license. Feel free to learn from it and
 -----Created by <span translate="no">Player1-----</span>
 Created by <notranslate>Player1</notranslate>
 Created by <span class="notranslate" translate="no">Player1</span>
+
+Created by `Player1`
