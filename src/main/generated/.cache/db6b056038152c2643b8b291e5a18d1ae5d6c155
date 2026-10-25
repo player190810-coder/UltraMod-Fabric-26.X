@@ -1,1 +1,3 @@
 // 26.2	-999999999-01-01T00:00:00	Ultra Mod (BETA)/Tags for minecraft:block
+5204db7649cfc9359f4cedc90d1e21c2fc330c11 data/minecraft/tags/block/mineable/pickaxe.json
+69cfa3ae80b6f369f67cc8884607083a80e784a4 data/minecraft/tags/block/needs_diamond_tool.json

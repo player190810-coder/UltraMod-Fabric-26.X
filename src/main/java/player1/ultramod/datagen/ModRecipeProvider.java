@@ -70,9 +70,9 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .save(output);
 
                 shaped(RecipeCategory.MISC, ModBlocks.MAGIC_BLOCK)
-                        .pattern("D F D")
-                        .pattern("F N F")
-                        .pattern("D F D")
+                        .pattern("DFD")
+                        .pattern("FNF")
+                        .pattern("DFD")
                         .define('F', ModBlocks.FLUORITE_BLOCK)
                         .define('D', Blocks.DIAMOND_BLOCK)
                         .define('N', Items.NETHER_STAR)

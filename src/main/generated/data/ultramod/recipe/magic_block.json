@@ -7,9 +7,9 @@
     "N": "minecraft:nether_star"
   },
   "pattern": [
-    "D F D",
-    "F N F",
-    "D F D"
+    "DFD",
+    "FNF",
+    "DFD"
   ],
   "result": {
     "id": "ultramod:magic_block"

@@ -16,8 +16,11 @@ import net.minecraft.world.item.Items;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.phys.AABB;
 import net.minecraft.world.phys.BlockHitResult;
 import player1.ultramod.item.ModItems;
+
+import java.util.List;
 
 public class MagicBlock extends Block {
     public MagicBlock(Properties properties) {
@@ -33,23 +36,36 @@ public class MagicBlock extends Block {
 
     @Override
     public void stepOn(Level level, BlockPos pos, BlockState onState, Entity entity) {
-        // Add Effect to player
+        // 1. Se quem pisou foi um Jogador, aplica o efeito de Glow
         if (entity instanceof Player player) {
             player.addEffect(new MobEffectInstance(MobEffects.GLOWING, 300));
         }
 
-        // Change Item(s) to other Items
-        if(entity instanceof ItemEntity itemEntity) {
-            if(isValidItem(itemEntity.getItem())) {
-                itemEntity.setItem(new ItemStack(Items.DIAMOND, itemEntity.getItem().getCount()));
+        // 2. Se quem caiu em cima foi um Item, verifica a combinação dos dois itens
+        if (!level.isClientSide() && entity instanceof ItemEntity) {
+            AABB box = new AABB(pos.above());
+            List<ItemEntity> items = level.getEntitiesOfClass(ItemEntity.class, box);
+
+            boolean hasFluorite = false;
+            boolean hasIron = false;
+
+            for (ItemEntity itemEntity : items) {
+                if (itemEntity.getItem().is(ModItems.FLUORITE)) {
+                    hasFluorite = true;
+                }
+                if (itemEntity.getItem().is(Items.IRON_INGOT)) {
+                    hasIron = true;
+                }
             }
 
+            // Se ambos os itens estiverem reunidos, dispara a partícula
+            if (hasFluorite && hasIron) {
+                level.addParticle(ParticleTypes.HAPPY_VILLAGER,
+                        pos.getX() + 0.5, pos.getY() + 1.2, pos.getZ() + 0.5,
+                        0.0, 0.1, 0.0);
+            }
         }
 
         super.stepOn(level, pos, onState, entity);
-    }
-
-    private boolean isValidItem(ItemStack item) {
-        return item.is(ModItems.FLUORITE) || item.is(Items.IRON_INGOT);
     }
 }
