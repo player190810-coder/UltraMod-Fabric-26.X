@@ -8,10 +8,9 @@ For setup instructions, please see the [Fabric Documentation page](https://docs.
 
 This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
 # UltraMod-Fabric-26.X
+
+
 ## Credits 
-
------Created by <span translate="no">Player1-----</span>
-Created by <notranslate>Player1</notranslate>
-Created by <span class="notranslate" translate="no">Player1</span>
-
+-------------------
 Created by `Player1`
+-------------------
