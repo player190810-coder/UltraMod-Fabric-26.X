@@ -71,7 +71,7 @@ public class MagicBlock extends Block {
         }
 
         // Change Item(s) to other Items
-        if (!level.isClientSide && entity instanceof ItemEntity itemEntity) {
+        if (!level.isClientSide() && entity instanceof ItemEntity itemEntity) {
 
             if (isValidItem(itemEntity.getItem())) {
                 transformItems(level, pos);
